@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license        = package['license']
   s.author         = package['author']
   s.homepage       = package['homepage']
-  s.platform       = {
+  s.platforms      = {
     :ios => '13.4',
     :osx => '10.15'
   }
