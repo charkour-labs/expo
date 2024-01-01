@@ -1,6 +1,6 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
-#import <EXFont/EXFontManager.h>
+#import <ExpoFont/EXFontManager.h>
 
 @interface EXFontManager ()
 

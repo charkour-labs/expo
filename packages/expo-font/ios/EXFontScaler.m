@@ -1,8 +1,8 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
-#import <EXFont/EXFontScaler.h>
+#import <ExpoFont/EXFontScaler.h>
 
-#import <EXFont/EXFont.h>
+#import <ExpoFont/EXFont.h>
 #import <objc/runtime.h>
 
 @implementation EXFontScaler

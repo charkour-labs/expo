@@ -1,9 +1,9 @@
 // Copyright 2018-present 650 Industries. All rights reserved.
 
-#import <EXFont/EXFontScalersManager.h>
+#import <ExpoFont/EXFontScalersManager.h>
 
 #import <ExpoModulesCore/EXDefines.h>
-#import <EXFont/EXFont.h>
+#import <ExpoFont/EXFont.h>
 
 #import <objc/runtime.h>
 

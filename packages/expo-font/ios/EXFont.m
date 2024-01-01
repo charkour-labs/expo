@@ -1,6 +1,6 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
-#import <EXFont/EXFont.h>
+#import <ExpoFont/EXFont.h>
 #import <objc/runtime.h>
 #import <CoreText/CoreText.h>
 

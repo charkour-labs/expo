@@ -2,7 +2,7 @@
 
 #import <Foundation/Foundation.h>
 #import <ExpoModulesCore/EXFontProcessorInterface.h>
-#import <EXFont/EXFontManager.h>
+#import <ExpoFont/EXFontManager.h>
 
 @interface EXFontLoaderProcessor : NSObject <EXFontProcessorInterface>
 

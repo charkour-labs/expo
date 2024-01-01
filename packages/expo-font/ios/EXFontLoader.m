@@ -1,15 +1,15 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
 #import <CoreText/CoreText.h>
-#import <EXFont/EXFontLoader.h>
-#import <EXFont/EXFontLoaderProcessor.h>
+#import <ExpoFont/EXFontLoader.h>
+#import <ExpoFont/EXFontLoaderProcessor.h>
 #import <ExpoModulesCore/EXFontManagerInterface.h>
 #import <ExpoModulesCore/EXFontScalersManagerInterface.h>
-#import <EXFont/EXFontScaler.h>
-#import <EXFont/EXFont.h>
+#import <ExpoFont/EXFontScaler.h>
+#import <ExpoFont/EXFont.h>
 #import <objc/runtime.h>
-#import <EXFont/EXFontManager.h>
-#import <EXFont/EXFontScalersManager.h>
+#import <ExpoFont/EXFontManager.h>
+#import <ExpoFont/EXFontScalersManager.h>
 
 @interface EXFontLoader ()
 

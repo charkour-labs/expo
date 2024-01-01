@@ -22,8 +22,6 @@ PODS:
     - ExpoModulesCore
   - EXContacts (12.8.1):
     - ExpoModulesCore
-  - EXFont (11.10.0):
-    - ExpoModulesCore
   - EXImageLoader (4.6.0):
     - ExpoModulesCore
     - React-Core
@@ -176,6 +174,8 @@ PODS:
   - ExpoFileSystem/Tests (16.0.1):
     - ExpoModulesCore
     - ExpoModulesTestCore
+  - ExpoFont (11.10.0):
+    - ExpoModulesCore
   - ExpoGL (13.6.0):
     - ExpoModulesCore
     - ReactCommon/turbomodule/core
@@ -1445,7 +1445,6 @@ DEPENDENCIES:
   - EXCalendar (from `../../../packages/expo-calendar/ios`)
   - EXConstants (from `../../../packages/expo-constants/ios`)
   - EXContacts (from `../../../packages/expo-contacts/ios`)
-  - EXFont (from `../../../packages/expo-font/ios`)
   - EXImageLoader (from `../../../packages/expo-image-loader/ios`)
   - EXJSONUtils (from `../../../packages/expo-json-utils/ios`)
   - EXJSONUtils/Tests (from `../../../packages/expo-json-utils/ios`)
@@ -1477,6 +1476,7 @@ DEPENDENCIES:
   - ExpoDocumentPicker (from `../../../packages/expo-document-picker/ios`)
   - ExpoFileSystem (from `../../../packages/expo-file-system/ios`)
   - ExpoFileSystem/Tests (from `../../../packages/expo-file-system/ios`)
+  - ExpoFont (from `../../../packages/expo-font/ios`)
   - ExpoGL (from `../../../packages/expo-gl`)
   - ExpoHaptics (from `../../../packages/expo-haptics/ios`)
   - ExpoImage (from `../../../packages/expo-image/ios`)
@@ -1628,9 +1628,6 @@ EXTERNAL SOURCES:
   EXContacts:
     inhibit_warnings: false
     :path: "../../../packages/expo-contacts/ios"
-  EXFont:
-    inhibit_warnings: false
-    :path: "../../../packages/expo-font/ios"
   EXImageLoader:
     inhibit_warnings: false
     :path: "../../../packages/expo-image-loader/ios"
@@ -1699,6 +1696,9 @@ EXTERNAL SOURCES:
   ExpoFileSystem:
     inhibit_warnings: false
     :path: "../../../packages/expo-file-system/ios"
+  ExpoFont:
+    inhibit_warnings: false
+    :path: "../../../packages/expo-font/ios"
   ExpoGL:
     inhibit_warnings: false
     :path: "../../../packages/expo-gl"
@@ -1942,7 +1942,6 @@ SPEC CHECKSUMS:
   EXCalendar: 3c6e6c545f617c89835a10fe251093cf36914b31
   EXConstants: 86bbc9fedbb67770c0c6bb37f22f81970ef45dc8
   EXContacts: 2ef734aa7b13c8e5ff20fb77d04f1cb172b61456
-  EXFont: 9ae7e8e2e4825cef04a45dca74512a3f711e2fe9
   EXImageLoader: 55080616b2fe9da19ef8c7f706afd9814e279b6b
   EXJSONUtils: d138005ee11b84fc4e3bf7119a160034db5d5e20
   EXLocation: 4cdbc108ff5bd944d981b7d0c0cf98630104a84a
@@ -1966,6 +1965,7 @@ SPEC CHECKSUMS:
   ExpoDevice: 30d5e44aff42048ab016fa0c37a51fdb6b1f8608
   ExpoDocumentPicker: 015978166ecdb556dbeff1db7413a051f8c03bc7
   ExpoFileSystem: ebbbe77366bff2e66876e3b3bf09e61d3bb72c70
+  ExpoFont: dfc9fc152ea6f3d8f43c9a9c2990c27c10dbf29f
   ExpoGL: 085542f97b13f2428ac2edb077c9a90f4566944d
   ExpoHaptics: 76961bc7692870eb8ddac0527260a7ecaf28300d
   ExpoImage: 5ba424cbd89ba94103f21817cc310c26a009d967

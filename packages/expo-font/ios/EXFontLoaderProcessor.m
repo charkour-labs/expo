@@ -1,9 +1,9 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
-#import <EXFont/EXFontLoaderProcessor.h>
-#import <EXFont/EXFontLoader.h>
-#import <EXFont/EXFont.h>
-#import <EXFont/EXFontManager.h>
+#import <ExpoFont/EXFontLoaderProcessor.h>
+#import <ExpoFont/EXFontLoader.h>
+#import <ExpoFont/EXFont.h>
+#import <ExpoFont/EXFontManager.h>
 #import <objc/runtime.h>
 
 @interface EXFontLoaderProcessor ()
