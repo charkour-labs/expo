@@ -311,6 +311,14 @@ exports[`built-in plugins compiles mods 1`] = `
         "name": "react-native-maps",
         "version": "UNVERSIONED",
       },
+      "withAndroidPatchPlugin": {
+        "name": "withAndroidPatchPlugin",
+        "version": "UNVERSIONED",
+      },
+      "withIosPatchPlugin": {
+        "name": "withIosPatchPlugin",
+        "version": "UNVERSIONED",
+      },
     },
     "projectRoot": "/app",
   },
@@ -1569,6 +1577,14 @@ exports[`built-in plugins introspects mods 1`] = `
         "name": "react-native-maps",
         "version": "UNVERSIONED",
       },
+      "withAndroidPatchPlugin": {
+        "name": "withAndroidPatchPlugin",
+        "version": "UNVERSIONED",
+      },
+      "withIosPatchPlugin": {
+        "name": "withIosPatchPlugin",
+        "version": "UNVERSIONED",
+      },
     },
     "projectRoot": "/app",
   },
@@ -2524,6 +2540,14 @@ exports[`built-in plugins introspects mods in a managed project 1`] = `
       },
       "react-native-maps": {
         "name": "react-native-maps",
+        "version": "UNVERSIONED",
+      },
+      "withAndroidPatchPlugin": {
+        "name": "withAndroidPatchPlugin",
+        "version": "UNVERSIONED",
+      },
+      "withIosPatchPlugin": {
+        "name": "withIosPatchPlugin",
         "version": "UNVERSIONED",
       },
     },
